@@ -1,0 +1,6 @@
+<port>16999</port>
+
+<cmd_mute>music_mute</cmd_mute>
+<cmd_volume_add>music_add</cmd_volume_sub>
+<cmd_volume_sub>music_sub</cmd_volume_sub>
+<cmd_unmute>music_unmute</cmd_unmute>
