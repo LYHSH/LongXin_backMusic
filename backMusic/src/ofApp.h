@@ -38,4 +38,17 @@ class ofApp : public ofBaseApp{
 		string volumeAddCmd;
 		string volumeSubCmd;
 		string unmuteCmd;
+
+
+		float muteScale;
+
+		
+		vector<string> ips;
+		int remotePort;
+		ofxUDPManager synSender;
+		ofxUDPManager synListener;
+
+
+		float synTimer;
+		float synTimeLen;
 };
